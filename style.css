@@ -1,5 +1,12 @@
+:root{
+    --amarillo:rgb(231, 231, 86);
+    --fuente: Arial;
+    --fuente-size: 20px;
+
+}
+
 body{
-    background-color: beige;
+    background-color: var(--amarillo);
 }
 
 h1{
@@ -17,7 +24,7 @@ h1{
     /* flex-direction: row;
     flex-wrap: wrap; */
     flex-flow: row wrap;
-    justify-content: center;
+    justify-content: space-between;
     align-items: center;
     /* align-content: center; */
 
@@ -27,8 +34,9 @@ h1{
     border: 1px solid lightblue;
     background-color:antiquewhite;
     color:black;
-    font-family: 'Courier New', Courier, monospace;
+    font-family: var(--fuente);
     font-weight: bold;
+    font-size: var(--fuente-size);
     height: 200px;
     width: 200px;
     line-height: 200px; 
